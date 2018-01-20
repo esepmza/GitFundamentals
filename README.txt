@@ -15,7 +15,10 @@ git log --oneline
 
 
 git log --oneline --graph
+git log --graph --online -all --decorate
 git shortlog
 git shortlog -sne  # s=summary n=number order e=email
+
+git config --global alias.lga "log --graph --oneline --all --decorate"
 
 
