@@ -21,4 +21,7 @@ git shortlog -sne  # s=summary n=number order e=email
 
 git config --global alias.lga "log --graph --oneline --all --decorate"
 
+new branch
+git branch <branch name>
+git checkout <branch name>
 
